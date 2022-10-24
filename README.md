@@ -6,8 +6,9 @@
 | TimeLimit          | integer  |           ✔️            | Match maximum playable time without overtime (0 means infinite time).             |  15 *(minutes)*   |
 | GoalScore          | integer  |           ✔️            | Goal score of player scores or team scores (0 means no goal score).               |        300        |
 | NoKillcam          |   bool   |           ✔️            | Disables kill cam on server.                                                      |       false       |
+| BalanceTeams       |   bool   |           ✔️            | If true it will balance teams on any player joined, false otherwise               |       false       |
 | Demorec            |  string  |           ✔️            | Custom demo file name (0 means no match recording).                               |  *(not passed)*   |
-| LAN                |   bool   |            ❌            | Starts game server as local server.                                               |  *(not passed)*   |
+| LAN                |   bool   |           ❌            | Starts game server as local server.                                               |  *(not passed)*   |
 
 
 ## Example Usage (For Linux)
