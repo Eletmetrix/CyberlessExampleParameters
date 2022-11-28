@@ -20,3 +20,13 @@
 # Starts server without kill cam system and without recording match
 ./CyberlessIIIOnlineServer.sh /Game/Maps/Warehouse?NoKillcam=1?Demorec=0
 ```
+
+## Example Usage (For Windows)
+```bash
+# Starts local server with password
+.\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?ServerPassword=passwd123 -LAN
+# Starts server with custom time limit and goal score
+.\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?TimeLimit=20?GoalScore=330
+# Starts server without kill cam system and without recording match
+.\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?NoKillcam=1?Demorec=0
+```
