@@ -14,9 +14,9 @@
 ## Example Usage (For Linux)
 ```shell
 # Starts local server with password
-./CyberlessIIIOnlineServer.sh /Game/Maps/DM-DeepForest?ServerPassword=passwd123 -LAN
+./CyberlessIIIOnlineServer.sh /Game/Maps/Warehouse?ServerPassword=passwd123 -LAN
 # Starts server with custom time limit and goal score
-./CyberlessIIIOnlineServer.sh /Game/Maps/DM-DeepForest?TimeLimit=20?GoalScore=330
+./CyberlessIIIOnlineServer.sh /Game/Maps/Warehouse?TimeLimit=20?GoalScore=330
 # Starts server without kill cam system and without recording match
-./CyberlessIIIOnlineServer.sh /Game/Maps/DM-DeepForest?NoKillcam=1?Demorec=0
+./CyberlessIIIOnlineServer.sh /Game/Maps/Warehouse?NoKillcam=1?Demorec=0
 ```
