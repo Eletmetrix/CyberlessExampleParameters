@@ -29,5 +29,5 @@
 # Starts server with custom time limit and goal score
 .\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?TimeLimit=20?GoalScore=330
 # Starts server without kill cam system, ignoring idle players and without recording match
-.\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?NoKillcam=1?IgnoreIdlePlayers=1Demorec=0
+.\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?NoKillcam=1?IgnoreIdlePlayers=1?Demorec=0
 ```
