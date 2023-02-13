@@ -18,7 +18,7 @@
 ./CyberlessIIIOnlineServer.sh /Game/Maps/Warehouse -LAN -ServerPassword=passwd123
 # Starts server with custom time limit and goal score
 ./CyberlessIIIOnlineServer.sh /Game/Maps/Warehouse?TimeLimit=20?GoalScore=330
-# Starts server without kill cam system and without recording match and ignoring idle players
+# Starts server without kill cam system, ignoring idle players and without recording match
 ./CyberlessIIIOnlineServer.sh /Game/Maps/Warehouse?NoKillcam=1?IgnoreIdlePlayers=1?Demorec=0
 ```
 
@@ -28,6 +28,6 @@
 .\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse -LAN -ServerPassword=passwd123
 # Starts server with custom time limit and goal score
 .\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?TimeLimit=20?GoalScore=330
-# Starts server without kill cam system and without recording match
-.\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?NoKillcam=1?Demorec=0
+# Starts server without kill cam system, ignoring idle players and without recording match
+.\CyberlessIIIOnlineServer.exe /Game/Maps/Warehouse?NoKillcam=1?IgnoreIdlePlayers=1Demorec=0
 ```
